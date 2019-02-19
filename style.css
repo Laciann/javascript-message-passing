@@ -1,0 +1,52 @@
+body {
+  background-color: rgba(47, 201, 149, 0.747);
+  color: rgb(21, 100, 74);
+  height: 100%;
+}
+
+.container {
+  height: 100%;
+  margin-top: 10%;
+}
+
+input {
+  padding: 1rem;
+  font-size: 2rem;
+  outline: none;
+}
+
+button {
+  padding: 1rem;
+  border: none;
+  background-color: blueviolet;
+  color: #fff;
+  font-size: 2rem;
+}
+
+button:hover {
+  outline: none;
+  background-color: rgb(103, 15, 185);
+  box-shadow: 0 1px 0 0 rgb(173, 137, 207);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.display-msg {
+  font-size: 3rem;
+  color: rgb(17, 146, 146);
+}
+
+.feedback {
+  background-color: deeppink;
+  color: pink;
+  align-self: center;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.hide{
+  display: none;
+}
